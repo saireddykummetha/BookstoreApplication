@@ -17,7 +17,7 @@ function App() {
    const fecthdetails=async()=>{
        const res = await fetch(SummaryApi.product.url,{
       method : SummaryApi.product.method,
-      credentials : 'include'
+      // credentials : 'include'
     })
     const resdata=await res.json()
       console.log(resdata)
