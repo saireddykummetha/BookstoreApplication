@@ -1,4 +1,4 @@
- const backendDomin="https://bookstoreapplication-pfe1.onrender.com"
+ const backendDomin="https://bookstoreapplication-2.onrender.com"
 
 const SummaryApi={
    login:{
