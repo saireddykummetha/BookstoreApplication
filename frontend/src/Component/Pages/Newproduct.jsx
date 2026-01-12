@@ -46,7 +46,7 @@ const Newproduct = () => {
     const fetchData=await fetch(SummaryApi.uploadBooks.url,{
         method : SummaryApi.uploadBooks.method,
         method:"post",
-       // credentials : 'include',
+         credentials : 'include',
             headers : {
                 "content-type" : "application/json"
             },
