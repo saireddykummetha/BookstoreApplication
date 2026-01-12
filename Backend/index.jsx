@@ -9,7 +9,7 @@ const app = express({limit:'100mb'});
 app.use(express.json());
 app.use(cors({
   origin: process.env.FRONT_END_URL, 
-  credentials: true
+  // credentials: true
 }));
 
 app.use('/',router)
