@@ -54,7 +54,7 @@ const Signup = () => {
       const fetchData=await fetch(SummaryApi.signup.url,{
         method : SummaryApi.signup.method,
         method:"post",
-       credentials : 'include',
+       // credentials : 'include',
             headers : {
                 "content-type" : "application/json"
             },
