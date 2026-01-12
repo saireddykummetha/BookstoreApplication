@@ -9,12 +9,12 @@ const SummaryApi={
       url:`${backendDomin}/signup`,
       method:"post"
    },
-   uploadProduct:{
+   uploadBooks:{
       url:`${backendDomin}/uploadBooks`,
       method:"post"
    },
    
-   product:{
+   AllBooks:{
       url:`${backendDomin}/AllBooks`,
       method:"get"
    
