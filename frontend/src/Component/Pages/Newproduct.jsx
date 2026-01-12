@@ -43,8 +43,8 @@ const Newproduct = () => {
 
    if(name && image && category && price){
     
-    const fetchData=await fetch(SummaryApi.uploadProduct.url,{
-        method : SummaryApi.uploadProduct.method,
+    const fetchData=await fetch(SummaryApi.uploadBooks.url,{
+        method : SummaryApi.uploadBooks.method,
         method:"post",
        // credentials : 'include',
             headers : {
