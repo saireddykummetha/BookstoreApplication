@@ -15,8 +15,8 @@ function App() {
  
 
    const fecthdetails=async()=>{
-       const res = await fetch(SummaryApi.product.url,{
-      method : SummaryApi.product.method,
+       const res = await fetch(SummaryApi.AllBooks.url,{
+      method : SummaryApi.AllBooks.method,
       // credentials : 'include'
     })
     const resdata=await res.json()
