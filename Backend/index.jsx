@@ -8,7 +8,7 @@ const app = express({limit:'100mb'});
 
 app.use(express.json());
 app.use(cors({
-  origin: "http://localhost:5173", 
+  origin: process.env.FRONT_END_URL, 
   credentials: true
 }));
 
